@@ -1,11 +1,10 @@
-# EXO Facile : Meilleur dev de france 2019 (18:00) : https://www.isograd.com/FR/solutionconcours.php?cts_id=57&que_str_id=&reg_typ_id=2
+# Easy - Grand prix de Monaco - Meilleur Dev de France Octobre 2019 (Session 18:00) 
+# https://www.isograd.com/FR/solutionconcours.php?cts_id=57&que_str_id=&reg_typ_id=2
 
-import sys
 POSITION = int(input())
 N = int(input())
 classement = [x for x in range(1,21)]
-sys.stderr.write("\n\nNew Race\n") 
-sys.stderr.write("Player position : "+str(POSITION)+"\n")  
+
 for x in range(N):     
     p, e = input().split(" ")     
     try:         
